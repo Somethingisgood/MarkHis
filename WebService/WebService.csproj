@@ -112,6 +112,11 @@
     <Content Include="WebService.asmx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DB\Common.cs" />
+    <Compile Include="DB\DBManage.cs" />
+    <Compile Include="Model\ResultClass.cs" />
+    <Compile Include="Model\TPara.cs" />
+    <Compile Include="Model\TSQLPara.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebService.asmx.cs">
       <DependentUpon>WebService.asmx</DependentUpon>
